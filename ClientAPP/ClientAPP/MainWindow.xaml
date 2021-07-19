@@ -1,0 +1,15 @@
+﻿<Window x:Class="ClientAPP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientAPP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtBxMessage" HorizontalAlignment="Left" Margin="210,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225" Height="41"/>
+        <Button x:Name="btnSubmit" Content="Button" HorizontalAlignment="Left" Margin="258,169,0,0" VerticalAlignment="Top" Height="29" Width="111" Click="btnSubmit_Click"/>
+        <Button x:Name="btnShowDetails" Content="Show Messages" HorizontalAlignment="Left" Height="41" Margin="619,46,0,0" VerticalAlignment="Top" Width="119" Click="btnShowDetails_Click"/>
+
+    </Grid>
+</Window>
